@@ -1,0 +1,9 @@
+intBoolean={0:False,1:True}
+print(intBoolean)
+print(intBoolean[0])
+print(intBoolean[1])
+intBoolean[2]="NaN"
+print(intBoolean)
+print(intBoolean[2])
+del(intBoolean[2])
+print(intBoolean)
